@@ -1,12 +1,13 @@
-import org.junit.Ignore;
 import org.junit.Test;
 
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
-import static org.hamcrest.CoreMatchers.*;
-import static org.junit.Assert.*;
+import static org.hamcrest.CoreMatchers.allOf;
+import static org.hamcrest.CoreMatchers.hasItem;
+import static org.junit.Assert.assertThat;
+import static org.junit.Assert.assertTrue;
 
 public class AnagramTest {
 
@@ -41,8 +42,8 @@ public class AnagramTest {
     public void testDetectMultipleAnagramsForLongerWord() {
         Anagram detector = new Anagram("allergy");
         List<String> anagrams = detector.match(Arrays.asList("gallery", "ballerina",
-                                                             "regally", "clergy",
-                                                             "largely", "leading"));
+                "regally", "clergy",
+                "largely", "leading"));
         assertThat(anagrams, allOf(hasItem("gallery"), hasItem("regally"), hasItem("largely")));
     }
 
