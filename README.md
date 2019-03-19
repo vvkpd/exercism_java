@@ -12,3 +12,5 @@
 `isogram`
 
 `Anagram`
+
+`Gigasecond`
