@@ -14,3 +14,5 @@
 `Anagram`
 
 `Gigasecond`
+
+`Resistor Color`
