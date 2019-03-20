@@ -18,3 +18,5 @@
 `Resistor Color`
 
 `Space Age`
+
+`Acronym`
