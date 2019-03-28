@@ -124,6 +124,10 @@ gradle-app.setting
 
 ### Gradle Patch ###
 **/build/
+**/gradlew
+**/gradle
+**/gradlew.bat
+**/*.iml
 
 **/.exercism/
 **/.idea/
